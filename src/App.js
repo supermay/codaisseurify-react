@@ -7,17 +7,17 @@ const artists = [
   {
     name: "Leonard Cohen",
     country: 'Canada',
-    isBand: false
+    isBand: false,
   },
   {
     name: "Beatles",
     country: 'The UK',
-    isBand: true
+    isBand: true,
   },
   {
     name: "Jay Chou",
     country: 'China',
-    isBand: false
+    isBand: false,
   },
 ]
 

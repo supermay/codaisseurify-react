@@ -5,7 +5,9 @@ import OneArtist from './OneArtist';
 
 class ArtistsContainer extends PureComponent {
   renderArtist(artist,index){
-    return <OneArtist key={index} {...artist} />
+    return (
+      <OneArtist key={index} {...artist} />
+    )
   }
 
   render() {
